@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+reports/coverage/
+docs/test-evidence/*.png
+.DS_Store
+.env
+
+# Assignment-only report sources, evidence and generated submission artifacts.
+docs/
+report/
+template/
+submission/
+*.docx
+PYTHON_STATIC_ANALYZER_PLAN.md

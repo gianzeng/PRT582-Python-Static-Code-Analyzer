@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyanalyzer"
+version = "0.1.0"
+description = "A deterministic, AST-based Python static code analyzer for PRT582."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+pyanalyzer = "pyanalyzer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
